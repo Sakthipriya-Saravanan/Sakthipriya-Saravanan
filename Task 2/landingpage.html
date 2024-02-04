@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chocolate Shop Landing page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="landing.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="logo.jpg"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#benefits" class="nav-link">BENEFITS</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="choco.jpg" alt="Image of Chocolates" />
+        </div>
+        <div class="eye-grabber">
+          <h1><i>Chocolate is a sweet as sunshine</i></h1>
+          <h2>
+            100% Organic, vivid varieties of Chocolates,made with zero sweetener,earthy undertones make for an intense tasting experience.
+
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading"><b>ABOUT US</b></h3>
+      
+        <div class="sec-content-div flexible">
+          <p><i>
+            
+            We are a group of people with decades of experience in growing and
+            selling Chocolates. We know what a good Chocolate looks like and how they
+            are sweetest.many people simply love the taste of Chocolate.We source premium-quality 
+            ingredients from around the world, and choose local options whenever possible. We 
+            never compromise on quality, and you bet you can taste it.Our chocolates are made 
+            with sustainable cocoa. We pay a premium for sustainable cocoa to ensure our farmer 
+            partners and co-ops are supported by programs that improve their profit and the livelihoods 
+            of their families. It's really quite simple, it's a choice we've made because it's the right choice to make.
+
+          </i></p>   
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading"><b>VARIETIES</b></h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="darkchocolate.jpg" alt=" dark Chocolates" />
+            <h4><i>Dark Chocolate</i></h4>
+            <p>
+              Dark chocolate contains chocolate liquor, sugar, and cocoa butter. 
+              It also commonly includes lecithin as an emulsifier and vanilla for flavor.
+              </p>
+          </div>
+          <div class="tile">
+            <img
+              src="milk.jpg"
+              alt="milk Chocolates"
+            />
+            <h4><i>Milk Chocolate</i></h4>
+            <p>
+              Milk chocolate is perhaps the most popular type of chocolate. 
+              It has a lighter color and less-pronounced chocolate taste.
+          </div> 
+          <div class="tile">
+            <img src="rubi.jpg" alt="Ruby chocolates" />
+            <h4><i>Ruby Chocolates</i></h4>
+            <p>
+              Ruby chocolate is the newest variety.It is said to taste a combination of
+              white chocolate and berries, even though there are not any berries in the recipe.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="whitechocolate.jpg" alt="white chocolates" />
+            <h4><i>White Chocolate</i></h4>
+            <p>
+              White chocolate does not contain chocolate liquor or any other cocoa 
+              products besides cocoa butter. It doesnot have a very chocolatey taste, 
+              but resembles smooth vanilla.
+          </div>
+          <div class="tile">
+            <img src="Bittersweet .jpg" alt="Bittersweet chocolates" />
+            <h4><i>Bittersweet Chocolates</i></h4>
+            <p>
+              Bittersweet chocolate must contain at least 35 percent cocoa according to 
+              the FDA, but most bittersweet bars contain 50 percent.
+            </p>
+          </div>
+          
+          <div class="tile">
+            <img src="semisweet.jpg" alt="semisweet chocolates" />
+            <h4><i>Semisweet Chocolates</i></h4>
+            <p>
+              Semisweet chocolate contains at least 35 percent cocoa solids. 
+              This type of chocolate is most commonly used for baking.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading"><b>BENEFITS</b></h3>
+        <div class="sec-content-div flexible">
+        <ul type="disc">
+
+          <i><h3>
+         <li>Research shows a reduction in heart disease risk among those who consume a moderate amount of chocolate</li>
+         <li>The bioactive compounds in cocoa may improve blood flow in the arteries and cause a small but statistically significant decrease in blood pressure.</li>
+         <li>Quality dark chocolate is rich in fiber, iron, magnesium, copper, manganese, and a few other minerals.</li>
+         <li>Cocoa or  chocolate may improve brain function by increasing blood flow. It also contains stimulants like caffeine and theobromine.</li>
+         <li>chocolate improves several important risk factors for disease. It lowers oxidation-prone LDL and improves insulin sensitivity.</li>
+        </h3></i>
+        </ul>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">SAKTHIPRIYA</a>
+    </footer>
+  </body>
+</html>
+
